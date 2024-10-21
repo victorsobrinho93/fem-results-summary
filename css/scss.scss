@@ -1,0 +1,5 @@
+@for $i from 0 through length($bg-colors) {
+  .color-#{$i} {
+    background-color: list.nth($bg-colors, $i + 1);
+  }
+}
